@@ -4,4 +4,6 @@ title = "Erin Lynn Fox"
 theme = "fox"
 
 [params]
+    description = ""
+    keywords = ""
     quote = "Stop and smell the tiger lilies."
