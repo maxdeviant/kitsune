@@ -1,12 +1,22 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
 }
 
 html {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5em;
+}
+
+body {
+    color: #222;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
 }
 
 a {
@@ -21,16 +31,23 @@ a:hover {
 
 .header {
     height: 100px;
+    margin-bottom: 50px;
     background: #f5f5f5;
 }
 
 .header .navigation {
-    padding: 34px;
+    padding: 36px;
 }
 
 .header .brand {
     font-size: 24px;
     text-transform: uppercase;
+}
+
+.header .quote {
+    margin: 0 16px;
+    font-size: 12px;
+    font-style: italic;
 }
 
 .header .links {
@@ -48,5 +65,51 @@ a:hover {
 }
 
 .splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -9999;
+    background-color: #fff;
+}
+
+.splash .container {
+    width: 960px;
+    /*height: 100%;*/
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.splash .container .title {
+    padding: 100px;
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: .75rem;
+    text-align: center;
+}
+
+.splash .container .intro {
+    padding: 0 100px;
+}
+
+.content {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.post {
+
+}
+
+.post .title {
+    font-weight: 100;
+}
+
+.post .date {
+
+}
+
+.post .body {
 
 }
