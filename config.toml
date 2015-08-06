@@ -1,3 +1,7 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "Erin Lynn Fox"
+theme = "fox"
+
+[params]
+    quote = "Stop and smell the tiger lilies."
