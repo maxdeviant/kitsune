@@ -7,3 +7,8 @@ theme = "fox"
     description = ""
     keywords = ""
     quote = "Stop and smell the tiger lilies."
+
+[permalinks]
+    blog = "/:year/:month/:slug/"
+
+[taxonomies]
